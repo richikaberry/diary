@@ -34,8 +34,21 @@
 
 ### 環境構築
 #### WSL2
-Docker + VSCode + WSL2 & Pythonでweb環境を作成する
+Docker + VSCode + WSL2 & Laravelでweb環境を作成する
 
+9月17日に自分で作成して遊べる環境を作成
+作成した環境はrepositolyはprofileを参照
+
+##### 以下参照したもの
+
+1. [WSLドキュメント](https://docs.microsoft.com/ja-jp/windows/wsl/install)
+2. [WindowsでWSL2を使って「完全なLinux」環境を作ろう！](https://www.kagoya.jp/howto/it-glossary/develop/wsl2_linux/)
+3. [WSL2+Docker Desktop+UbuntuでLaravel9の開発環境を構築する](https://www.inet-solutions.jp/technology/laravel_sail/)
+
+##### 問題に関連したもの
+
+1. [DockerでWSL2を使うと上手くいかなかった話](https://laraweb.net/environment/9462/)
+2. [gitでbranchの履歴が違った際にpush出来なかった話](https://qiita.com/mikumikumikumiku/items/3353018c72a1bf306f21)
 #### rails + Docker
 
 #### AWS + Docker
