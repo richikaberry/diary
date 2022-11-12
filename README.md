@@ -53,3 +53,5 @@ Docker + VSCode + WSL2 & Laravelでweb環境を作成する
 #### rails + Docker
 
 #### AWS + Docker
+
+### WSL + Remix + Prisma + Tailwind
