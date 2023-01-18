@@ -50,8 +50,10 @@ Docker + VSCode + WSL2 & Laravelでweb環境を作成する
 
 1. [DockerでWSL2を使うと上手くいかなかった話](https://laraweb.net/environment/9462/)
 2. [gitでbranchの履歴が違った際にpush出来なかった話](https://qiita.com/mikumikumikumiku/items/3353018c72a1bf306f21)
-#### rails + Docker
 
-#### AWS + Docker
+### WSL2 + Next.js + Prisma
 
 ### WSL + Remix + Prisma + Tailwind
+業務で行った
+
+#### AWS + Docker
