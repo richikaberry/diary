@@ -61,3 +61,11 @@ Docker + VSCode + WSL2 & Laravelでweb環境を作成する
 #### ngrok
 ngrokというローカル環境にipを付け公開出来るサービスを利用し仮想的OGP画像の確認を行った
 ローカルオブジェクトストレージに入れた画像と3000番ポートで動いているseedDataで入れた画像が別のサーバでホストされている問題があったがDBを直接操作して強引に検証した。
+
+#### circleci
+circleci/config.ymlの設定
+docker imageを用いたenvironmentの設定
+開発環境で使用するMySQLやDocker-comopose.ymlはdockerレジストリに存在するのでそこに合わせた設定にする必要があった。
+docker imageにはcimg/mysqlは存在しなかったのでdocker image としてMySQLを使用して、authのusernameとpasswordをデフォルトのもので設定している。
+docker image は `docker images`コマンドで確認する。
+portも確認しておくと良い。
