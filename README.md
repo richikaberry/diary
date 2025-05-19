@@ -69,3 +69,6 @@ docker imageを用いたenvironmentの設定
 docker imageにはcimg/mysqlは存在しなかったのでdocker image としてMySQLを使用して、authのusernameとpasswordをデフォルトのもので設定している。
 docker image は `docker images`コマンドで確認する。
 portも確認しておくと良い。
+
+### WordPress
+施工王でWordPressを使用した
